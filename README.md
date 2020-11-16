@@ -1,4 +1,4 @@
-# Departamento médico
+# Departamento Médico
 
 -   **IA/ML/DL tem revolucionado a área da medicina e saúde:**
     -   Imagens médicas
@@ -22,5 +22,23 @@ Referência: "Computer learns to detect skin cancer  more accurately than doctor
 -   **As “bordas/linhas” são utilizadas nas camadas seguintes para formar  características mais complexas (olhos, boca, nariz).**
 ![redes Neurais](https://github.com/callacius/Data_Science_Medico/blob/main/images/01.png?raw=true)
 ![redes Neurais](https://github.com/callacius/Data_Science_Medico/blob/main/images/02.png?raw=true)
+-   **Existem diversas arquiteturas de redes neurais convolucionais  treinadas e disponíveis para uso:**
+    -   LeNet-5 (1998): 7 níveis de convolução aplicada na classificação de dígitos manuscritos.
+    -   AlexNet (2012): apresentou melhorias, reduzindo o erro de 26%  para 15.3%.
+    -   ZFNEt (2013): erro de 14.8%.
+    -   Googlenet/Inception (2014): erro de 6.67% (similar a precisão humana).
+    -   VGGNet (2014).
+    -   ResNet (2015): Residual Neural Network com a inclusão do  conceito de “skip connection” que permitiu o treinamento de  152 camadas. Erro de 3.57% (superior aos humanos).
+**RESNET (RESIDUAL NETWORK)**
+-   **Problema do gradiente desaparecendo (vanish gradient  problem)**
+-   **Conceito de “skip connection” (usada na arquitetura YOLO)**
+-   **A base de dados ImageNet contém 11 milhões de imagens e 11.000 categoriais**
+-   **Essa base de dados é utilizada para treinar a arquitetura ResNet**
+![redes Neurais](https://github.com/callacius/Data_Science_Medico/blob/main/images/03.png?raw=true)
+**TRANSFERÊNCIA DE APRENDIZAGEM**
+-   **É uma técnica na qual uma rede neural foi treinada para realizar uma determinada tarefa e é reusada como ponto de partida para uma tarefa similar.**
+-   **Muito útil porque reduz drasticamente o tempo de treinamento.**
+![redes Neurais](https://github.com/callacius/Data_Science_Medico/blob/main/images/04.png?raw=true)
+![redes Neurais](https://github.com/callacius/Data_Science_Medico/blob/main/images/05.png?raw=true)
 
 Fonte: **https://www.udemy.com/course/ciencia-de-dados-para-empresas-e-negocios**
